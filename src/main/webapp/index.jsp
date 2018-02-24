@@ -1,7 +1,9 @@
 <html>
     <body>
+
+        <% String string = "Hello World"; %>
         <p>
-            Hello Word
+            <%= string %>
         </p>
     </body>
 </html>
