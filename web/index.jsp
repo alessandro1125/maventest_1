@@ -11,7 +11,7 @@
             //HttpHelperConnection httpHelperConnection = new HttpHelperConnection();
         %>
         <p>
-            <%= string %>
+            <%= string %> <br> Hello World from Servlet!!
         </p>
     </body>
 </html>
