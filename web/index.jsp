@@ -7,7 +7,7 @@
             JSONObject jsonObject;
             HttpHelperConnection httpHelperConnection;
             httpHelperConnection = new HttpHelperConnection();
-            String string = httpHelperConnection.getResponse("http://ipq.altervista.org/index.php", "GET", "", 5000, 5000);
+            String string = httpHelperConnection.getResponse("https://www.google.com", "GET", "", 5000, 5000);
             //HttpHelperConnection httpHelperConnection = new HttpHelperConnection();
         %>
         <p>
