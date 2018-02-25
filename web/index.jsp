@@ -1,9 +1,11 @@
 <%@ page import="org.json.JSONObject"%>
 <%@ page import="com.assetx.libraries.utils.HttpHelperConnection" %>
+<%@ page import="org.apache.commons.logging.LogSource" %>
 <html>
     <body>
 
         <%
+            LogSource logSource;
             JSONObject jsonObject;
             HttpHelperConnection httpHelperConnection;
             httpHelperConnection = new HttpHelperConnection();
