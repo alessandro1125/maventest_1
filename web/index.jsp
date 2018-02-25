@@ -2,11 +2,11 @@
 <%@ page import="com.assetx.libraries.utils.HttpHelperConnection" %>
 <%@ page import="com.assetx.libraries.beacon.AccesToken" %>
 <%@ page import="java.io.FileInputStream" %>
+<%@ page import="com.google.auth.oauth2.GoogleCredentials" %>
 <html>
     <body>
 
         <%
-            
             JSONObject jsonObject;
             String accestoken = AccesToken.GetAccesToken(new FileInputStream("key.json"));
             HttpHelperConnection httpHelperConnection;
