@@ -1,11 +1,9 @@
-<%@ page import="io.github.endreman0.javajson.JavaJson" %>
-<%@ page import="com.assetx.libraries.utils.HttpHelperConnection" %>
+<%@ page import="org.json.JSONObject"%>
 <html>
     <body>
 
         <%
-            HttpHelperConnection httpHelperConnection;
-            JavaJson javaJson;
+            JSONObject jsonObject;
             String string = "Hello World";
             //HttpHelperConnection httpHelperConnection = new HttpHelperConnection();
         %>
