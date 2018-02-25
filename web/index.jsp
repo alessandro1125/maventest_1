@@ -7,7 +7,7 @@
 
         <%
             JSONObject jsonObject;
-            String accestoken = AccesToken.GetAccesToken(new FileInputStream("../src/resources/key.json"));
+            String accestoken = AccesToken.GetAccesToken(new FileInputStream("key.json"));
             HttpHelperConnection httpHelperConnection;
             httpHelperConnection = new HttpHelperConnection();
             String string = httpHelperConnection.getResponse("https://www.google.com", "GET", "", 5000, 5000);
