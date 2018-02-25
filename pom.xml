@@ -47,7 +47,11 @@
             <artifactId>java-json</artifactId>
             <version>0.13.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.assetx.libraries</groupId>
+            <artifactId>assetx-utils</artifactId>
+            <version>1.0</version>
+        </dependency>
 
     </dependencies>
     <build>
